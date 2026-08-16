@@ -7,7 +7,6 @@ function Home(){
     const [error,setError] = useState(null)
     const [loading,setLoading] = useState(true)
 
-
     useEffect(()=>{
         const loadPopularMovies = async()=>{
             try{
